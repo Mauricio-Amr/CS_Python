@@ -11,23 +11,23 @@ print(10, type(10))
 print(3.1416, type(3.1416))
 print(10 == 10, type(10 == 10))
 
-#type cast
-print ('Mauricio', type('Mauricio'), bool('mauricio'))
-print ('100 ', type('100'), type(int('100')))
+# type cast
+print('Mauricio', type('Mauricio'), bool('mauricio'))
+print('100 ', type('100'), type(int('100')))
 
-#type cast q não funciona
-#print ('mauricio', type(int('mauricio')))
-#print ('10.53', type(int(10.53)))
+# type cast q não funciona
+# print ('mauricio', type(int('mauricio')))
+# print ('10.53', type(int(10.53)))
 
 
-#string : nome
+# string : nome
 print('Mauircio', type('Mauricio'))
 
-#inteiro :idade
-print(36 , type(36))
+# inteiro :idade
+print(36, type(36))
 
-#float : Altura
+# float : Altura
 print(1.85, type(1.85))
 
-#Bool : é maior de idade
-print(36> 18, type(36>18))
+# Bool : é maior de idade
+print(36 > 18, type(36 > 18))
