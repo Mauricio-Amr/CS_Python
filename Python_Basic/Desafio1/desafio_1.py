@@ -8,3 +8,4 @@ imc = peso / (altura ** 2)
 
 print('{} tem {} anos de idade , sua altura é {},seu peso é {}Kg , seu imc {}'.format(nome, idade, altura, peso, imc))
 print('seu ano de nascimento é {}'.format(ano_nac))
+
