@@ -11,7 +11,7 @@ elif True :
     nome = input('Digite seu nome ')
     print(f'seu nome é {nome}')
 
-    
+
 elif False :
     print('Mais uma veradeira')
     print(22+22)
