@@ -7,7 +7,7 @@ def func(a1, a2, a3, a4, a5 , nome = None , a6 =None):
     print(a1, a2, a3, a4, a5, nome, a6)
     return nome, a6
 
-def func2(*args, **kwargs):
+def func2(*args, **kwargs): #args argumentos , kwargs passa os argumentos nomeados
 
   print(args)
   print(kwargs)
