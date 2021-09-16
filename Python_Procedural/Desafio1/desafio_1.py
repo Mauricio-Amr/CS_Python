@@ -23,23 +23,26 @@ listas_de_listas_de_inteiros = [
 
 
 def procurarvalorlista(*lista):
-    y = 0
 
-    for d_lista in lista:
-        for x in d_lista:
+
+        for x in lista:
             print(x)
             TAM = len(x)-1
             z=0
             while z <= TAM -1:
                 if x[z] == x[z+1]:
-                    print(x[z] , x[z+1])
+                    return (x[z] , x[z+1])
                     break
 
-                else:
-                    y += 1
+                elif z <= TAM:
                     z += 1
-                    if z >= len(x):
-                        print(f'Não encontramos numeros iguais')
+
+            numero = -1
+            return numero
 
 
-procurarvalorlista(listas_de_listas_de_inteiros)
+
+
+for lista_de_inteiros in listas_de_listas_de_inteiros:
+
+    print(procurarvalorlista(lista_de_inteiros))
