@@ -22,22 +22,19 @@ listas_de_listas_de_inteiros = [
 ]
 
 
-def procurarvalorlista(*lista):
-    for x in lista:
-        print(x)
-        TAM = len(x) - 1
-        z = 0
-        while z <= TAM - 1:
-            if x[z] == x[z + 1]:
-                return (x[z], x[z + 1])
-                break
+def encontraPrimeiroDuplicado(arg_list):
+    numeros_checados = set()
+    primeiro_duplicado = -1
 
-            elif z <= TAM:
-                z += 1
+    for numero in arg_list:
+        if numero in numeros_checados:
+            primeiro_duplicado = numero
+            break
 
-        numero = -1
-        return numero
+        numeros_checados.add(numero)
+
+    return primeiro_duplicado
 
 
 for lista_de_inteiros in listas_de_listas_de_inteiros:
-    print(procurarvalorlista(lista_de_inteiros))
+    print(lista_de_inteiros, encontraPrimeiroDuplicado(lista_de_inteiros))
