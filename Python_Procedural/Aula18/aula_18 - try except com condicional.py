@@ -3,9 +3,16 @@ def converter_numero(valor):
         valor = int(valor)
         return valor
     except ValueError as error:
-        pass
+        try:
+            valor = float(valor)
+            return valor
+        except ValueError:
+            pass
 
 
-
-numero = converter_numero(input('digite um numero : '))
-print(numero * 5)
+while True:
+    numero = converter_numero(input('digite um numero : '))
+    if numero is None:
+        print('Isso não é numero')
+    else:
+        print(numero * 5)

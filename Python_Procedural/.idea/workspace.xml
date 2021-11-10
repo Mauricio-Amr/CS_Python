@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd79243-dcde-409a-9678-b62f8b0fea98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Python_Procedural.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula16/aula_16- try except.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula17/aula_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula18/aula_18 - try except com condicional.py" afterDir="false" />
+    <list default="true" id="afd79243-dcde-409a-9678-b62f8b0fea98" name="Changes" comment="aula 17 concluida">
+      <change afterPath="$PROJECT_DIR$/Aula19/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula19/vendas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula19/vendas/calcula_preco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula19/vendas/formata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula19/vendas/formata/preco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula18/aula_18 - try except com condicional.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula18/aula_18 - try except com condicional.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.aula_18 - try except com condicional">
+  <component name="RunManager" selected="Python.main">
     <configuration name="aula_17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Procedural" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,8 +82,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Procedural" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula19" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula19/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.aula_18 - try except com condicional" />
         <item itemvalue="Python.aula_17" />
       </list>
@@ -103,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634140345902</updated>
     </task>
+    <task id="LOCAL-00001" summary="aula 17 concluida">
+      <created>1635388100060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635388100060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +140,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aula 17 concluida" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 17 concluida" />
   </component>
 </project>
