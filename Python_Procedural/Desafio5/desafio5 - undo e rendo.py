@@ -7,28 +7,21 @@ Faça uma lista de tarefas com as seguintes opçoes :
 """
 
 
+def adicionar_tarefa(tarefa, lt_tarefas):
+    lt_tarefa.append(tarefa)
 
 
-
-def adicionar_tarefa(lista_de_tarefa, lista=None):
-    if lista is None:
-        lista = []
-    lista.append(lista_de_tarefa)
-    return lista
+def listar_tarefa(lt_tarefa):
+    print(lt_tarefa)
 
 
-def Listar_tarefa(lista):
-    print(lista)
-
-
-def defazer_tarefa(lt_tarefa,lt_desfazer_tarefa ):
+def defazer_tarefa(lt_tarefa,lt_refazer_tarefa ):
     if not lt_tarefa :
         print("Não tem elemento na lista ")
         return
 
-
     ultima_tarefa = lt_tarefa.pop()
-    lt_desfazer_tarefa.append(ultima_tarefa)
+    lt_refazer_tarefa.append(ultima_tarefa)
 
 
 def refazer_tarefa(lt_tarefa, lt_refazer_tarefa):
@@ -56,18 +49,17 @@ if __name__ == '__main__':
 
         if opcao == '1':
             tarefa = input("Digite sua tarefa ")
-            listaDeTarefa = adicionar_tarefa(tarefa, lt_tarefa)
+            adicionar_tarefa(tarefa, lt_tarefa)
 
         elif opcao == '2':
-            Listar_tarefa(listaDeTarefa)
+            listar_tarefa(lt_tarefa)
 
         elif opcao == '3':
-            listaDeTarefa = defazer_tarefa(lt_tarefa,lt_desfazer_tarefa )
-            Listar_tarefa(listaDeTarefa)
+            defazer_tarefa(lt_tarefa,lt_refazer_tarefa)
 
         elif opcao == '4':
-            listaDeTarefa = refazer_tarefa(listaDeTarefa,lt_tarefa)
-            print(listaDeTarefa)
+            refazer_tarefa(lt_tarefa, lt_refazer_tarefa)
+
 
         elif opcao == 'S':
             break

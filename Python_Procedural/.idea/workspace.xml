@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd79243-dcde-409a-9678-b62f8b0fea98" name="Changes" comment="aula 20 concluida">
-      <change afterPath="$PROJECT_DIR$/Aula21/decor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula21/decora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula21/decoradores.py" afterDir="false" />
+    <list default="true" id="afd79243-dcde-409a-9678-b62f8b0fea98" name="Changes" comment="aula 21 concluida">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager" selected="Python.decora">
     <configuration name="decora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636647905052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aula 21 concluida">
+      <created>1637014460211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637014460211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +217,7 @@
     <MESSAGE value="aula 17 concluida" />
     <MESSAGE value="aula 19 concluida" />
     <MESSAGE value="aula 20 concluida" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 20 concluida" />
+    <MESSAGE value="aula 21 concluida" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 21 concluida" />
   </component>
 </project>
