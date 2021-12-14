@@ -21,7 +21,7 @@ Recap.
 543298765432 -> Primeiro digito
 6543298765432 -> Segunro digito
 """
-import cnpj
+from Python_Procedural.Aula23.validacnpj import cnpj
 
 cnpj1 = '04.252.011/0001-10'
 
