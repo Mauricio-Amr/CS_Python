@@ -24,3 +24,13 @@ Banco será responsável autenticar o cliente e as contas da seguinte maneira:
 Só será possível sacar se passar na autenticação do banco (descrita acima)
 """
 
+
+from conta_co import ContaCorrente
+from conta_po import ContaPoupanca
+
+co = ContaCorrente('')
+
+
+
+
+print(cliente_cc('maria',19))

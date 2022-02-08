@@ -1,12 +1,12 @@
 class Banco :
     def __init__(self,conta, agencia):
-        self.conta = conta
-        self.agencia = agencia
+        self._conta = conta
+        self._agencia = agencia
 
     @property
     def conta(self):
-        return self.conta
+        return self._conta
 
     @property
     def agencia(self):
-        return self.agencia
+        return self._agencia

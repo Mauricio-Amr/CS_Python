@@ -2,10 +2,11 @@ from abc import ABC, abstractmethod
 
 class Conta(ABC):
 
-    def __init__(self, agencia, conta, saldo):
+    def __init__(self, agencia, conta, saldo, limite):
         self._agencia = agencia
         self._conta = conta
         self._saldo =saldo
+        self._saldo = limite
 
     @property
     def agencia(self):
@@ -32,3 +33,7 @@ class Conta(ABC):
         print(f'agencia {self._agencia}')
         print(f'conta {self.conta}')
         print(f'saldo {self._saldo}')
+
+    @abstractmethod
+    def sacar(self):
+        pass
