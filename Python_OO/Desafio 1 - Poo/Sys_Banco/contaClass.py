@@ -1,4 +1,4 @@
-from ABC import abstractmethod
+from abc import abstractmethod, ABC
 
 class Pessoa:
     def __init__(self, nome, idade):
@@ -21,7 +21,7 @@ class Cliente(Pessoa):
      def inserir_conta(self,conta):
          self.conta = conta
 
-class Conta:
+class Conta(ABC):
     def __init__(self, agencia , conta, saldo):
         self.agente = agencia
         self.conta = conta
@@ -32,21 +32,24 @@ class Conta:
         pass
 
 
+    def deposito(self, valor):
+       self.saldo += valor
+       self.descricao()
+
+
+    def descricao(self):
+        print(f'Agencia : {self.agencia}'
+            f'Conta : {self.conta}'
+            f'Saldo : {self.saldo}')
+
+
+
 class ContaCorrente(Conta):
     def __init__(self,agencia, conta, saldo, limite =100):
         self.agencia = agencia
         self.conta = conta
         self.saldo = saldo
         self.limite = limite
-
-    def deposito(self, valor):
-        self.saldo += valor
-        self.descricao()
-
-    def descricao(self):
-        print(f'Agencia : {self.agencia}'
-              f'Conta : {self.conta}'
-              f'Saldo : {self.saldo}')
 
     def sacar(self,valor):
 
