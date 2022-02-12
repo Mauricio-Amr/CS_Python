@@ -46,15 +46,28 @@ class Conta(ABC):
 
 class ContaCorrente(Conta):
     def __init__(self,agencia, conta, saldo, limite =100):
-        self.agencia = agencia
-        self.conta = conta
-        self.saldo = saldo
+       super().__init__(agencia, conta, saldo)
         self.limite = limite
 
     def sacar(self,valor):
-
+        if (self.saldo + self.limite) <valor:
+            print('Saldo insuficiente')
+            return
         self.saldo -= valor
         self.descricao()
 
 class ContaPoupanca(Conta):
-    pass
+
+    def sacar(self, valor):
+        if self.saldo < valor:
+            print('Saldo insuficiente')
+            return
+
+        self.saldo -= valor
+        self.descricao()
+
+class Banco :
+    def __init__(self):
+        self.agencias = []
+        self.clientes = []
+        self.contas = []
